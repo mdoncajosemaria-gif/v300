@@ -1,0 +1,66 @@
+2025-07-29 19:05:59,843 - services.ai_manager - INFO - ✅ Gemini Flash inicializado com sucesso
+2025-07-29 19:05:59,856 - services.ai_manager - INFO - ✅ OpenAI inicializado com sucesso
+2025-07-29 19:05:59,857 - services.ai_manager - INFO - ✅ HuggingFace inicializado com sucesso
+2025-07-29 19:05:59,857 - services.ai_manager - INFO - AI Manager inicializado com 3 provedores disponíveis
+2025-07-29 19:05:59,992 - services.production_search_manager - INFO - 🚀 Production Search Manager inicializado
+2025-07-29 19:05:59,992 - services.production_search_manager - INFO - 📊 Provedores habilitados: google, serper, bing, duckduckgo
+2025-07-29 19:05:59,996 - services.content_extractor - INFO - Content Extractor inicializado com múltiplas estratégias
+2025-07-29 19:06:00,007 - services.search_manager - INFO - ✅ Google Custom Search disponível
+2025-07-29 19:06:00,007 - services.search_manager - INFO - ✅ Serper API disponível
+2025-07-29 19:06:00,007 - services.search_manager - INFO - ✅ Bing e DuckDuckGo sempre disponíveis (scraping)
+2025-07-29 19:06:00,008 - services.search_manager - INFO - Search Manager inicializado com 4 provedores disponíveis
+2025-07-29 19:06:00,016 - services.mental_drivers_architect - INFO - Mental Drivers Architect inicializado com 19 drivers universais
+2025-07-29 19:06:00,022 - services.future_prediction_engine - INFO - Future Prediction Engine inicializado
+2025-07-29 19:06:00,022 - services.ultra_detailed_analysis_engine - INFO - Ultra Detailed Analysis Engine inicializado - Modo GIGANTE ativado
+2025-07-29 19:06:00,023 - services.enhanced_analysis_engine - INFO - Enhanced Analysis Engine inicializado - Sistemas: {'ai_manager': True, 'search_manager': True, 'content_extractor': True}
+2025-07-29 19:06:00,623 - services.production_content_extractor - INFO - 🚀 Production Content Extractor inicializado
+2025-07-29 19:06:00,632 - __main__ - INFO - 🚀 Iniciando ARQV30 Enhanced v2.0 em MODO PRODUÇÃO
+2025-07-29 19:06:00,633 - __main__ - INFO - 🔒 Debug desabilitado, headers de segurança habilitados
+2025-07-29 19:06:00,633 - __main__ - INFO - Servidor: http://0.0.0.0:5000
+2025-07-29 19:06:00,633 - __main__ - INFO - Encoding: UTF-8
+2025-07-29 19:06:00,633 - __main__ - INFO - Locale: ('pt_BR', 'UTF-8')
+2025-07-29 19:06:00,634 - __main__ - ERROR - Erro ao iniciar aplicação: '>' not supported between instances of 'NoneType' and 'float'
+2025-07-29 19:06:00,635 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\user\Desktop\project-bolt-github-sdjezidm\project\src\run.py", line 310, in main
+    search_status = production_search_manager.get_provider_status()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\project-bolt-github-sdjezidm\project\src\services\production_search_manager.py", line 835, in get_provider_status
+    'rate_limited': config.get('quota_reset', 0) > time.time(),
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'NoneType' and 'float'
+
+2025-07-29 19:06:00,635 - __main__ - INFO - 🧹 Executando limpeza final...
+2025-07-29 19:06:00,648 - services.production_content_extractor - INFO - 🗑️ Cache de conteúdo limpo
+2025-07-29 20:15:55,722 - services.ai_manager - INFO - ✅ Gemini Flash inicializado com sucesso
+2025-07-29 20:15:55,736 - services.ai_manager - INFO - ✅ OpenAI inicializado com sucesso
+2025-07-29 20:15:55,736 - services.ai_manager - INFO - ✅ HuggingFace inicializado com sucesso
+2025-07-29 20:15:55,736 - services.ai_manager - INFO - AI Manager inicializado com 3 provedores disponíveis
+2025-07-29 20:15:55,823 - services.production_search_manager - INFO - 🚀 Production Search Manager inicializado
+2025-07-29 20:15:55,824 - services.production_search_manager - INFO - 📊 Provedores habilitados: google, serper, bing, duckduckgo
+2025-07-29 20:15:55,825 - services.content_extractor - INFO - Content Extractor inicializado com múltiplas estratégias
+2025-07-29 20:15:55,827 - services.search_manager - INFO - ✅ Google Custom Search disponível
+2025-07-29 20:15:55,827 - services.search_manager - INFO - ✅ Serper API disponível
+2025-07-29 20:15:55,827 - services.search_manager - INFO - ✅ Bing e DuckDuckGo sempre disponíveis (scraping)
+2025-07-29 20:15:55,827 - services.search_manager - INFO - Search Manager inicializado com 4 provedores disponíveis
+2025-07-29 20:15:55,828 - services.mental_drivers_architect - INFO - Mental Drivers Architect inicializado com 19 drivers universais
+2025-07-29 20:15:55,829 - services.future_prediction_engine - INFO - Future Prediction Engine inicializado
+2025-07-29 20:15:55,829 - services.ultra_detailed_analysis_engine - INFO - Ultra Detailed Analysis Engine inicializado - Modo GIGANTE ativado
+2025-07-29 20:15:55,829 - services.enhanced_analysis_engine - INFO - Enhanced Analysis Engine inicializado - Sistemas: {'ai_manager': True, 'search_manager': True, 'content_extractor': True}
+2025-07-29 20:15:56,371 - services.production_content_extractor - INFO - 🚀 Production Content Extractor inicializado
+2025-07-29 20:15:56,380 - __main__ - INFO - 🚀 Iniciando ARQV30 Enhanced v2.0 em MODO PRODUÇÃO
+2025-07-29 20:15:56,380 - __main__ - INFO - 🔒 Debug desabilitado, headers de segurança habilitados
+2025-07-29 20:15:56,380 - __main__ - INFO - Servidor: http://0.0.0.0:5000
+2025-07-29 20:15:56,381 - __main__ - INFO - Encoding: UTF-8
+2025-07-29 20:15:56,381 - __main__ - INFO - Locale: ('pt_BR', 'UTF-8')
+2025-07-29 20:15:56,381 - __main__ - ERROR - Erro ao iniciar aplicação: '>' not supported between instances of 'NoneType' and 'float'
+2025-07-29 20:15:56,382 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\user\Desktop\project-bolt-github-sdjezidm\project\src\run.py", line 310, in main
+    search_status = production_search_manager.get_provider_status()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\project-bolt-github-sdjezidm\project\src\services\production_search_manager.py", line 835, in get_provider_status
+    'rate_limited': config.get('quota_reset', 0) > time.time(),
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'NoneType' and 'float'
+
+2025-07-29 20:15:56,383 - __main__ - INFO - 🧹 Executando limpeza final...
+2025-07-29 20:15:56,395 - services.production_content_extractor - INFO - 🗑️ Cache de conteúdo limpo
