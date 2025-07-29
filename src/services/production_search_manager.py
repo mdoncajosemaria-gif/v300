@@ -832,7 +832,7 @@ class ProductionSearchManager:
                 'priority': config['priority'],
                 'error_count': config['error_count'],
                 'last_error': config.get('last_error'),
-                'rate_limited': (config.get('quota_reset') or 0) > time.time(),
+                'rate_limited': bool(config.get('quota_reset')) and config.get('quota_reset', 0) > time.time(),
                 'requests_today': len(self.rate_limiter.get(name, [])),
                 'rate_limit': config['rate_limit']
             }
