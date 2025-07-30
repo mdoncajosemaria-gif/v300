@@ -14,6 +14,7 @@ from typing import Dict, List, Optional, Any
 from services.ai_manager import ai_manager
 from services.production_search_manager import production_search_manager
 from services.content_extractor import content_extractor
+from services.production_search_manager import production_search_manager as search_manager
 from services.ultra_detailed_analysis_engine import ultra_detailed_analysis_engine
 from services.mental_drivers_architect import mental_drivers_architect
 from services.future_prediction_engine import future_prediction_engine
